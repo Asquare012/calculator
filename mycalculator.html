@@ -1,0 +1,97 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>calculator</title>
+    <link rel="stylesheet" href="mycalculator.css" />
+  </head>
+  <body>
+    <div class="container">
+      <form class="calculator" name="calc">
+        <h3 id="date"></h3>
+
+        <input type="text" name="txt" id="text" readonly />
+        <hr />
+        <br />
+        <div class="controls">
+          <input type="button" value="CE" class="control-a" onclick="first()" />
+          <input
+            type="button"
+            value="Del"
+            class="control-b"
+            onclick="second()"
+          />
+          <input type="button" value="%" class="control-c" onclick="third()" />
+          <input type="button" value="/" class="control-d" onclick="fourth()" />
+          <input type="button" value="7" class="control-e" onclick="fifth()" />
+          <input type="button" value="8" class="control-f" onclick="sixth()" />
+          <input
+            type="button"
+            value="9"
+            class="control-g"
+            onclick="seventh()"
+          />
+          <input type="button" value="x" class="control-h" onclick="eight()" />
+          <input type="button" value="4" class="control-i" onclick="nineth()" />
+          <input type="button" value="5" class="control-j" onclick="tenth()" />
+          <input
+            type="button"
+            value="6"
+            class="control-k"
+            onclick="eleventh()"
+          />
+          <input
+            type="button"
+            value="-"
+            class="control-l"
+            onclick="twelveth()"
+          />
+          <input
+            type="button"
+            value="1"
+            class="control-m"
+            onclick="thirteenth()"
+          />
+          <input
+            type="button"
+            value="2"
+            class="control-o"
+            onclick="fourteenth()"
+          />
+          <input
+            type="button"
+            value="3"
+            class="control-p"
+            onclick="fifteenth()"
+          />
+          <input
+            type="button"
+            value="+"
+            class="control-q"
+            onclick="sixteenth()"
+          />
+          <input
+            type="button"
+            value="0"
+            class="control-r"
+            onclick="seventeenth()"
+          />
+          <input
+            type="button"
+            value="."
+            class="control-s"
+            onclick="eighteenth()"
+          />
+          <input
+            type="button"
+            value="="
+            class="control-t"
+            onclick="nineteenth()"
+          />
+        </div>
+      </form>
+    </div>
+    <script src="mycalculator.js"></script>
+  </body>
+</html>
